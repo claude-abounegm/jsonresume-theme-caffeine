@@ -9,7 +9,7 @@
     {{/if}}
 
     {{#if email}}
-        {{> info-tag text=this.email icon="fa-envelope-o"}}
+        {{> info-tag text=this.email url=(concat 'mailto:' this.email) icon="fa-envelope-o"}}
     {{/if}}
 
     {{#if phone}}
