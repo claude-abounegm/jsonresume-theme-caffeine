@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     @include josefin(700);
-    @include font-size(10);
+    @include font-size(7.5);
     letter-spacing: 1px;
 }
 
@@ -88,7 +88,7 @@ em {
 }
 
 ul {
-    margin: spacing(2) 0 0;
+    margin: 0 0 0;
     -webkit-padding-start: spacing(5);
 
     li {
@@ -118,5 +118,5 @@ ul {
 }
 
 @page {
-    size: A4;
+    size: Letter;
 }

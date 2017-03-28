@@ -1,5 +1,5 @@
 .container {
-    padding-top: spacing(4);
+    padding-top: spacing(3);
 }
 
 .keyline {
@@ -14,6 +14,10 @@
 
 .pull-right {
     float: right;
+}
+
+.center-text {
+	text-align: center;
 }
 
 .clearfix {

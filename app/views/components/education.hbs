@@ -5,12 +5,21 @@
     {{#each resume.education}}
         <section class="item">
             {{> section-header name=this.institution }}
-
-            <h4>{{#if studyType}}{{studyType}} {{/if}}{{#if area}}{{area}}{{/if}}</h4>
-
-            {{#if gpa}}
-            <h5>{{gpa}}</h5>
+            
+			{{#if gpa}}
+            <h5 class="pull-right"><b>Overall GPA: {{gpa}}</b></h5>
             {{/if}}
+			
+            <h4>
+				{{#if studyType}}
+					{{studyType}}
+				{{/if}}
+				{{#if area}}
+					<div style="margin-left: 10px;">
+						{{{area}}}
+					</div>
+				{{/if}}
+			</h4>
 
             {{#if courses.length}}
             <ul class="two-column">

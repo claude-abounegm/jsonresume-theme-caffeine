@@ -42,7 +42,11 @@ handlebars.registerHelper({
 
     formatDate: function(date) {
         return moment(date).format('MM/YYYY');
-    }
+    },
+	
+	formatYear: function(date) {
+		return moment(date).format('YYYY');
+	}
 });
 
 
