@@ -1,0 +1,209 @@
+{
+	"basics": {
+		"name": "Claude Abounegm",
+		"label": "Software Developer",
+		"email": "negmc@etown.edu",
+		"phone": "+1 (717) 892-4217",
+		"website": "",
+		"location": {
+			"address": "2133 Baugher Ave.",
+			"city": "Elizabethtown",
+			"region": "PA",
+			"postalCode": "17022",
+			"countryCode": "US"
+		},
+		"profiles": [
+			{
+				"network": "GitHub",
+				"username": "claude-abounegm",
+				"url": "http://github.com/claude-abounegm"
+			},
+			{
+				"network": "LinkedIn",
+				"username": "claudeabounegm",
+				"url": "http://linkedin.com/in/claudeabounegm"
+			}
+		]
+	},
+	"education": [
+		{
+			"institution": "Elizabethtown College",
+			"majors": [
+				{
+					"name": "Computer Engineering",
+					"gpa": "3.80"
+				},
+				{
+					"name": "Computer Science",
+					"gpa": "3.66"
+				}
+			],
+			"studyType": "Bachelor of Science",
+			"endDate": "2017-05-20",
+			"gpa": "3.41",
+			"courses": []
+		},
+		{
+			"institution": "The American University in Cairo",
+			"studyType": "Semester Abroad",
+			"startDate": "2016-01-01",
+			"endDate": "2016-05-01"
+		}
+	],
+	"projects": [
+		{
+			"name": "IoT: Energy Efficient Solution",
+			"highlights": [
+				"This is a four-person senior project. Smart Frame is a successor and extension to a project called Smart Mirror, which is a voice activated mirror with IoT features. Our project uses Node.js, and makes use of sensors to autonomously take actions. The collected data is also saved to MongoDB. Python is also used.",
+				"I am currently leading the design and development of the project. We plan on controlling ACs, window blinds and lights."
+			],
+			"startDate": "2016-08-01"
+		},
+		{
+			"name": "Shadow Programming Language",
+			"url": "https://github.com/claude-abounegm/shadow",
+			"highlights": [
+				"Successfully implemented threads for <a href=\"http://shadow-language.org\" target=\"_blank\">Shadow</a>, on the grammar and compiler level, and coded its functionality using Shadow, Java, C and LLVM. Threads use message passing to communicate.",
+				"Designed and coded a micro-framework to support compiling and linking C code with Shadow. Expanded the Shadow standard library.",
+				"Wrote Shadow tests for all new features added which run using JUnit."
+			],
+			"startDate": "2016-08-01"
+		},
+		{
+			"name": "Etown Schedule Generator",
+			"url": "https://jayweb.etown.edu/sched/",
+			"highlights": [
+				"Individually designed and developed a desktop application for personal use to generate possible schedules based on personal preferences. The application quickly spread between students without my intervention.",
+				"Presented the working product to Information and Technology Services (ITS) and procured a summer job with ITS to create a web-based version of my schedule generator using ASP.NET."
+			],
+			"startDate": "2014-02-01",
+			"endDate": "2014-04-01"
+		}
+	],
+	"work": [
+		{
+			"name": "Elizabethtown College",
+			"position": "Teaching Assistant & Dishroom Worker",
+			"summary": "My duty is to help students perform the lab experiments, and grade those labs. I also work at dining services in the dishroom on the side.",
+			"startDate": "2017-01-01"
+		},
+		{
+			"name": "Unplugged Web, Egypt",
+			"position": "Backend Developer Internship",
+			"url": "http://unpluggedweb.com/",
+			"summary": "Partially developed a version of the backend API of a travel agency website using Laravel and MySQL.",
+			"startDate": "2016-07-01",
+			"endDate": "2016-08-01"
+		},
+		{
+			"name": "IBM, Egypt",
+			"position": "Application Developer Internship",
+			"url": "https://www.ibm.com/eg-en/",
+			"summary": "Attended a complete Java review. Worked on several programming tasks.",
+			"startDate": "2015-07-01",
+			"endDate": "2015-08-01"
+		},
+		{
+			"name": "Orascom (OCI), Egypt",
+			"position": "IT Trainee",
+			"url": "http://www.orascom.com/",
+			"summary": "Focused on Database Administration with MS SQL Server and Oracle. Used SQL Queries and SQL Server Management Studio to manage the databases.",
+			"endDate": "2015-07-01"
+		},
+		{
+			"name": "Elizabethtown College",
+			"position": "ASP.NET Web Developer",
+			"url": "http://jayweb.etown.edu/sched",
+			"startDate": "2014-05-01",
+			"endDate": "2014-08-01",
+			"summary": "Developed a web variation of my Etown Schedule Generator using ASP.NET web forms, HTML, JavaScript, jQuery, Bootstrap and CSS. The web application was successfully delivered by the requested deadline and is live on the college’s website at: http://jayweb.etown.edu/sched."
+		}
+	],
+	"skills": [
+		{
+			"name": "Development",
+			"level": "Master",
+			"keywords": [
+				"C# (8+ years)",
+				"Java (4+ years)",
+				"JavaScript (4+ years)",
+				"C (3+ years)"
+			]
+		},
+		{
+			"level": "Intermediate",
+			"keywords": [
+				"ASP.NET",
+				"HTML",
+				"CSS/SASS",
+				"C++",
+				"jQuery",
+				"Bootstrap",
+				"AngularJS",
+				"LLVM",
+				"PHP",
+				"REST"
+			]
+		},
+		{
+			"level": "Beginner",
+			"keywords": [
+				"Laravel",
+				"Assembly",
+				"Gulp",
+				"Grunt"
+			]
+		},
+		{
+			"name": "Tools",
+			"keywords": [
+				"Visual Studio",
+				"Eclipse",
+				"WebStorm",
+				"PhpStorm",
+				"Git",
+				"Node.js"
+			]
+		},
+		{
+			"name": "Databases",
+			"keywords": [
+				"MySQL",
+				"MongoDB"
+			]
+		}
+	],
+	"languages": [
+		{
+			"language": "Arabic",
+			"fluency": "Native"
+		},
+		{
+			"language": "French",
+			"fluency": "Native"
+		},
+		{
+			"language": "English",
+			"fluency": "Fluent"
+		}
+	],
+	"awards": [
+		{
+			"title": "Emergent Scholar",
+			"date": "2015-01-01",
+			"awarder": "Elizabethtown College",
+			"summary": "Having more than 3.75 cumulative GPA during the first three semesters."
+		},
+		{
+			"title": "Hager Scholar",
+			"date": "2014-01-01",
+			"awarder": "Elizabethtown College",
+			"summary": "Selection based on academic achievement and potential, in recognition of academic excellence."
+		},
+		{
+			"title": "Dean's List",
+			"awarder": "Elizabethtown College",
+			"summary": "A full-time undergraduate student who earns a semester grade point average of 3.60 or better in 14 or more credit hours. Spring & Fall 2014, Spring & Fall 2015"
+		}
+	]
+}

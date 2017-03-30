@@ -14,9 +14,14 @@
 				{{#if studyType}}
 					{{studyType}}
 				{{/if}}
-				{{#if area}}
+				
+				{{#if majors.length}}
+					{{#each majors}}
+						<div class="education-area">> <b>{{name}}</b> {{#if this.gpa}}(Major GPA: {{this.gpa}}){{/if}}</div>
+					{{/each}}
+				{{else if area}}
 					<div class="education-area">
-						{{{area}}}
+						{{area}}
 					</div>
 				{{/if}}
 			</h4>

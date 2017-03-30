@@ -40,8 +40,16 @@ handlebars.registerHelper({
         return addressList.join('<br/>');
     },
 
-    formatDate: function(date) {
-        return moment(date).format('MMMM YYYY');
+    formatDate: function(date, other) {
+		let start = moment(date);
+		if(date === other) {
+			other = moment();
+		}
+		
+		if(other && start.isSame(other, 'year')) {
+			return start.format('MMMM');
+		}
+        return start.format('MMMM YYYY');
     },
 	
 	formatYear: function(date) {

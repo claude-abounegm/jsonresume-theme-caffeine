@@ -4,7 +4,7 @@
 
 .keyline {
     width: spacing(9);
-    margin: 8px 0 10px;
+    margin: 2px 0 6px;
     border-top: 1px solid $primary-color;
 }
 
@@ -42,4 +42,28 @@
 
 .education-area {
 	margin-left: 10px;
+}
+
+.profile-header {
+	h1 {
+		@include font-size(8);
+	}
+	
+	h2 {
+		@include font-size(5);
+	}
+}
+
+span.awarder {
+	font-weight: 300;
+	@include font-size(3);
+}
+
+footer {
+	position: relative;
+    left: -34px;
+    bottom: -30px;
+    width: 95%;
+    border-top: 1px solid black;
+    font-size: 9px;
 }
