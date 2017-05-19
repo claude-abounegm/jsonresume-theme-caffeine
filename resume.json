@@ -1,8 +1,8 @@
 {
 	"basics": {
 		"name": "Claude Abounegm",
-		"label": "Software Developer",
-		"email": "negmc@etown.edu",
+		"label": "Software Engineer",
+		"email": "claudenegm@gmail.com",
 		"phone": "+1 (717) 892-4217",
 		"website": "",
 		"location": {
@@ -31,16 +31,16 @@
 			"majors": [
 				{
 					"name": "Computer Engineering",
-					"gpa": "3.80"
+					"gpa": "3.74"
 				},
 				{
 					"name": "Computer Science",
-					"gpa": "3.66"
+					"gpa": "3.63"
 				}
 			],
 			"studyType": "Bachelor of Science",
-			"endDate": "2017-05-20",
-			"gpa": "3.41",
+			"endDate": "2017-05-09",
+			"gpa": "3.47",
 			"courses": []
 		},
 		{
@@ -52,14 +52,6 @@
 	],
 	"projects": [
 		{
-			"name": "IoT: Energy Efficient Solution",
-			"highlights": [
-				"This is a four-person senior project. Smart Frame is a successor and extension to a project called Smart Mirror, which is a voice activated mirror with IoT features. Our project uses Node.js, and makes use of sensors to autonomously take actions. The collected data is also saved to MongoDB. Python is also used.",
-				"I am currently leading the design and development of the project. We plan on controlling ACs, window blinds and lights."
-			],
-			"startDate": "2016-08-01"
-		},
-		{
 			"name": "Shadow Programming Language",
 			"url": "https://github.com/claude-abounegm/shadow",
 			"highlights": [
@@ -68,6 +60,15 @@
 				"Wrote Shadow tests for all new features added which run using JUnit."
 			],
 			"startDate": "2016-08-01"
+		},
+		{
+			"name": "IoT: Energy Efficient Solution",
+			"highlights": [
+				"This is a four-person senior project. Smart Frame is a successor and extension to a project called Smart Mirror, which is a voice activated mirror with IoT features. Our project uses Node.js, and makes use of sensors to autonomously take actions. The collected data is also saved to MongoDB. Python is partially used to retrieve sensors data.",
+				"I led the design and development of the project. We were able to control lights, blinds, and HVAC, by voice, through a web portal, and automatically."
+			],
+			"startDate": "2016-08-01",
+			"endDate": "2017-05-01"
 		},
 		{
 			"name": "Etown Schedule Generator",
@@ -83,9 +84,10 @@
 	"work": [
 		{
 			"name": "Elizabethtown College",
-			"position": "Teaching Assistant & Dishroom Worker",
-			"summary": "My duty is to help students perform the lab experiments, and grade those labs. I also work at dining services in the dishroom on the side.",
-			"startDate": "2017-01-01"
+			"position": "Teaching Assistant",
+			"summary": "My duty was to help students perform lab experiments in an Electronics course; I also graded the labs.",
+			"startDate": "2017-01-01",
+			"endDate": "2017-05-01"
 		},
 		{
 			"name": "Unplugged Web, Egypt",
@@ -104,13 +106,6 @@
 			"endDate": "2015-08-01"
 		},
 		{
-			"name": "Orascom (OCI), Egypt",
-			"position": "IT Trainee",
-			"url": "http://www.orascom.com/",
-			"summary": "Focused on Database Administration with MS SQL Server and Oracle. Used SQL Queries and SQL Server Management Studio to manage the databases.",
-			"endDate": "2015-07-01"
-		},
-		{
 			"name": "Elizabethtown College",
 			"position": "ASP.NET Web Developer",
 			"url": "http://jayweb.etown.edu/sched",
@@ -127,31 +122,27 @@
 				"C# (8+ years)",
 				"Java (4+ years)",
 				"JavaScript (4+ years)",
-				"C (3+ years)"
+				"C/C++ (3+ years)"
 			]
 		},
 		{
 			"level": "Intermediate",
 			"keywords": [
 				"ASP.NET",
+				"PHP",
 				"HTML",
 				"CSS/SASS",
-				"C++",
 				"jQuery",
 				"Bootstrap",
 				"AngularJS",
-				"LLVM",
-				"PHP",
-				"REST"
+				"LLVM"
 			]
 		},
 		{
 			"level": "Beginner",
 			"keywords": [
 				"Laravel",
-				"Assembly",
-				"Gulp",
-				"Grunt"
+				"Gulp"
 			]
 		},
 		{
@@ -159,9 +150,8 @@
 			"keywords": [
 				"Visual Studio",
 				"Eclipse",
-				"WebStorm",
-				"PhpStorm",
 				"Git",
+				"WebStorm",
 				"Node.js"
 			]
 		},
@@ -188,6 +178,11 @@
 		}
 	],
 	"awards": [
+		{
+			"title": "Faculty Student Award",
+			"awarder": "Elizabethtown College",
+			"summary": "An award given by the Engineering department in recognition of academic excellence and professional potential."
+		},
 		{
 			"title": "Emergent Scholar",
 			"date": "2015-01-01",
