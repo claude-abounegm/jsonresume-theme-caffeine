@@ -1,5 +1,5 @@
 .container {
-    padding-top: spacing(5);
+    padding-top: spacing(4.8);
 }
 
 .keyline {
@@ -66,4 +66,20 @@ footer {
     width: 95%;
     border-top: 1px solid black;
     font-size: 9px;
+}
+
+.list li {
+    float: left;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+.list:after { /* Clearfix hack */
+    content: "";
+    display: block;
+    clear: both;
+}
+
+a.link {
+	color: #2895F1;
 }

@@ -2,14 +2,10 @@
 <div class="container awards-container">
     {{> title value="Awards"}}
 
+	<ul class="list">
     {{#each resume.awards}}
-        <section class="item">
-            {{> section-header name=this.title }}
-
-            {{#if summary}}
-            <p class="summary">{{summary}}</p>
-            {{/if}}
-        </section>
+		<li>&bull; {{ this.title }}</li>
     {{/each}}
+	</ul>
 </div>
 {{/if}}

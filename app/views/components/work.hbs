@@ -11,13 +11,13 @@
             {{/if}}
 
             {{#if summary}}
-				<p class="summary">{{summary}}</p>
+				<ul><li class="summary">{{{summary}}}</li></ul>
             {{/if}}
 
             {{#if highlights.length}}
 				<ul>
 					{{#each highlights}}
-					<li>{{.}}</li>
+					<li>{{{.}}}</li>
 					{{/each}}
 				</ul>
             {{/if}}

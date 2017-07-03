@@ -1,8 +1,8 @@
 {
 	"basics": {
 		"name": "Claude Abounegm",
-		"label": "Software Engineer",
-		"email": "claudenegm@gmail.com",
+		"label": "Junior Software Engineer",
+		"email": "negmc@etown.edu",
 		"phone": "+1 (717) 892-4217",
 		"website": "",
 		"location": {
@@ -34,7 +34,7 @@
 					"gpa": "3.74"
 				},
 				{
-					"name": "Computer Science",
+					"name": "Computer Science (Honors in the Discipline)",
 					"gpa": "3.63"
 				}
 			],
@@ -55,7 +55,7 @@
 			"name": "Shadow Programming Language",
 			"url": "https://github.com/claude-abounegm/shadow",
 			"highlights": [
-				"Successfully implemented threads for <a href=\"http://shadow-language.org\" target=\"_blank\">Shadow</a>, on the grammar and compiler level, and coded its functionality using Shadow, Java, C and LLVM. Threads use message passing to communicate.",
+				"Successfully implemented threads for <a class=\"link\" href=\"http://shadow-language.org\" target=\"_blank\">Shadow</a>, on the grammar and compiler level, and coded its functionality using Shadow, Java, C and LLVM. Threads use message passing to communicate.",
 				"Designed and coded a micro-framework to support compiling and linking C code with Shadow. Expanded the Shadow standard library.",
 				"Wrote Shadow tests for all new features added which run using JUnit."
 			],
@@ -71,7 +71,15 @@
 			"endDate": "2017-05-01"
 		},
 		{
-			"name": "Etown Schedule Generator",
+			"name": "Sophomore Project (Historical Document Display Case)",
+			"highlights": [
+				"Team project to design and build a display case to conserve a historical document under special conditions."
+			],
+			"startDate": "2015-01-01",
+			"endDate": "2015-05-01"
+		},
+		{
+			"name": "Personal Project: Etown Schedule Generator",
 			"url": "https://jayweb.etown.edu/sched/",
 			"highlights": [
 				"Individually designed and developed a desktop application for personal use to generate possible schedules based on personal preferences. The application quickly spread between students without my intervention.",
@@ -79,6 +87,22 @@
 			],
 			"startDate": "2014-02-01",
 			"endDate": "2014-04-01"
+		},
+		{
+			"name": "Mobile Wellness Center",
+			"highlights": [
+				"Led a team to create an architectural design of a wellness center for truck drivers."
+			],
+			"startDate": "2014-01-01",
+			"endDate": "2014-05-01"
+		},
+		{
+			"name": "Introduction To Engineering Project II (Trebuchet)",
+			"highlights": [
+				"Team project to design and build a trebuchet, using CAD and fabrication lab equipment."
+			],
+			"startDate": "2014-01-01",
+			"endDate": "2014-05-01"
 		}
 	],
 	"work": [
@@ -92,7 +116,6 @@
 		{
 			"name": "Unplugged Web, Egypt",
 			"position": "Backend Developer Internship",
-			"url": "http://unpluggedweb.com/",
 			"summary": "Partially developed a version of the backend API of a travel agency website using Laravel and MySQL.",
 			"startDate": "2016-07-01",
 			"endDate": "2016-08-01"
@@ -100,18 +123,23 @@
 		{
 			"name": "IBM, Egypt",
 			"position": "Application Developer Internship",
-			"url": "https://www.ibm.com/eg-en/",
 			"summary": "Attended a complete Java review. Worked on several programming tasks.",
 			"startDate": "2015-07-01",
 			"endDate": "2015-08-01"
 		},
 		{
+			"name": "Orascom Construction Industries, Egypt",
+			"position": "IT Trainee",
+			"summary": "Database Administration with hands-on training using MSSQL.",
+			"startDate": "2015-06-01",
+			"endDate": "2015-07-01"
+		},
+		{
 			"name": "Elizabethtown College",
 			"position": "ASP.NET Web Developer",
-			"url": "http://jayweb.etown.edu/sched",
 			"startDate": "2014-05-01",
 			"endDate": "2014-08-01",
-			"summary": "Developed a web variation of my Etown Schedule Generator using ASP.NET web forms, HTML, JavaScript, jQuery, Bootstrap and CSS. The web application was successfully delivered by the requested deadline and is live on the college’s website at: http://jayweb.etown.edu/sched."
+			"summary": "Developed a web variation of my Etown Schedule Generator using ASP.NET web forms, HTML, JavaScript, jQuery, Bootstrap and CSS. The web application was successfully delivered by the requested deadline and is live on the college’s website at: <a class=\"link\" href=\"http://jayweb.etown.edu/sched\" target=\"_blank\">http://jayweb.etown.edu/sched</a>."
 		}
 	],
 	"skills": [
@@ -122,27 +150,31 @@
 				"C# (8+ years)",
 				"Java (4+ years)",
 				"JavaScript (4+ years)",
-				"C/C++ (3+ years)"
+				"C (3+ years)"
 			]
 		},
 		{
 			"level": "Intermediate",
 			"keywords": [
-				"ASP.NET",
 				"PHP",
 				"HTML",
 				"CSS/SASS",
+				"C++",
+				
+				"ASP.NET",
 				"jQuery",
 				"Bootstrap",
-				"AngularJS",
-				"LLVM"
+				"AngularJS"
 			]
 		},
 		{
 			"level": "Beginner",
 			"keywords": [
+				"WordPress",
 				"Laravel",
-				"Gulp"
+				"Gulp",
+				"LLVM",
+				"TypeScript"
 			]
 		},
 		{
@@ -179,26 +211,25 @@
 	],
 	"awards": [
 		{
-			"title": "Faculty Student Award",
-			"awarder": "Elizabethtown College",
-			"summary": "An award given by the Engineering department in recognition of academic excellence and professional potential."
+			"title": "Honors in the Discipline in Computer Science"
 		},
 		{
-			"title": "Emergent Scholar",
-			"date": "2015-01-01",
-			"awarder": "Elizabethtown College",
-			"summary": "Having more than 3.75 cumulative GPA during the first three semesters."
+			"title": "Faculty Student Award 2017"
 		},
 		{
-			"title": "Hager Scholar",
-			"date": "2014-01-01",
-			"awarder": "Elizabethtown College",
-			"summary": "Selection based on academic achievement and potential, in recognition of academic excellence."
+			"title": "Emergent Scholar 2015"
+		},		
+		{
+			"title": "Best Sophomore Project 2015"
 		},
 		{
-			"title": "Dean's List",
-			"awarder": "Elizabethtown College",
-			"summary": "A full-time undergraduate student who earns a semester grade point average of 3.60 or better in 14 or more credit hours. Spring & Fall 2014, Spring & Fall 2015"
+			"title": "Hager Scholar 2014"
+		},
+		{
+			"title": "Best Trebuchet Project 2014"
+		},
+		{
+			"title": "Dean's List: Spring & Fall: 2014 & 2015"
 		}
 	]
 }
